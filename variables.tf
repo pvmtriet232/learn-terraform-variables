@@ -70,3 +70,13 @@ variable "private_subnet_cidr_blocks" {
     "10.0.108.0/24",
   ]
 }
+
+
+variable "resource_tags" {
+  description = "Tags to all resources"
+  type        = map(string)
+  default = {
+    project     = "Terraform-practise",
+    environment = "dev"
+  }
+}       
