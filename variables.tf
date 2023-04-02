@@ -80,3 +80,8 @@ variable "resource_tags" {
     environment = "dev"
   }
 }       
+
+variable "ec2_instance_type" {
+    description = "ec2 instance type"
+    type = string
+}
