@@ -2,3 +2,9 @@
 # SPDX-License-Identifier: MPL-2.0
 
 # Variable declarations
+
+variable "aws_region" {
+    description = "AWS region"
+    type = string
+    default = "us-west-2"
+}
